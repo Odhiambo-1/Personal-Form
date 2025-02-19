@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Personal Data Form</h1>
+    <form action="#" method="post">
+        <!-- Text Fields -->
+        <div class="form-group">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+        </div>
+        <!-- Email Field -->
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- Password Field -->
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <!-- Dropdown List -->
+        <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+                <option value="kenya">Kenya</option>
+                <option value="tanzania">Tanzania</option>
+                <option value="uganda">Uganda</option>
+            </select>
+        </div>
+ <!-- Radio Buttons -->
+ <div class="form-group">
+    <label>Gender:</label>
+    <div class="radio-group">
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+    </div>
+</div>
+
+<!-- Checkboxes -->
+<div class="form-group">
+    <label>Hobbies:</label>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="hobbies" value="reading"> Reading</label>
+        <label><input type="checkbox" name="hobbies" value="traveling"> Traveling</label>
+        <label><input type="checkbox" name="hobbies" value="gaming"> Gaming</label>
+    </div>
+</div>
+ <!-- Submit Button -->
+ 
+<div>
+    <section class="submit">
+        <button>Submit</button>
+    </section>
+</div>
+</form>
+</body>
+</html>
